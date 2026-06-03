@@ -16,7 +16,7 @@ The Pi agent should inspect the package list below, install the listed packages,
 
 On a new computer with Pi installed, give the Pi agent this instruction:
 
-> Install these Pi packages globally for me: `pi-subagents`, `pi-mcp-adapter`, `pi-web-access`, `@juicesharp/rpiv-ask-user-question`, `@plannotator/pi-extension`, `pi-simplify`, `@juicesharp/rpiv-advisor`, and `@juicesharp/rpiv-btw`.
+> Install these Pi packages globally for me: `pi-subagents`, `pi-mcp-adapter`, `pi-web-access`, `@juicesharp/rpiv-ask-user-question`, `@plannotator/pi-extension`, `pi-simplify`, `@juicesharp/rpiv-advisor`, `@juicesharp/rpiv-btw`, and `pi-feishu-lark`.
 
 The agent should install each package from npm using `pi install`. Pi currently installs one package at a time, so if a multi-package install fails, ask the agent to install them sequentially.
 
@@ -32,6 +32,7 @@ The agent should install each package from npm using `pi install`. Pi currently 
 | `pi-simplify` | Reviews recently changed code for clarity, consistency, and maintainability. |
 | `@juicesharp/rpiv-advisor` | Lets the model request a second opinion from a stronger reviewer model before acting. |
 | `@juicesharp/rpiv-btw` | Adds `/btw` for one-off side questions without polluting the main conversation. |
+| `pi-feishu-lark` | Adds Feishu/Lark integration for Pi. |
 
 ## Verify installation
 
